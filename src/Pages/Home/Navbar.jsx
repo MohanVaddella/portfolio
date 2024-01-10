@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
+
   const toggleNav = () => {
     setNavActive(!navActive);
   };
@@ -53,6 +54,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               offset={-70}
+              duration={500}
               to="heroSection"
               className="navbar--content"
             >
@@ -66,6 +68,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               offset={-70}
+              duration={500}
               to="AboutMe"
               className="navbar--content"
             >
@@ -79,6 +82,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               offset={-70}
+              duration={500}
               to="Experience"
               className="navbar--content"
             >
@@ -92,6 +96,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               offset={-70}
+              duration={500}
               to="Projects"
               className="navbar--content"
             >
@@ -105,6 +110,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               offset={-70}
+              duration={500}
               to="Skills"
               className="navbar--content"
             >
@@ -119,6 +125,7 @@ function Navbar() {
         spy={true}
         smooth={true}
         offset={-70}
+        duration={500}
         to="Contact"
         className="btn btn-outline-primary"
       >

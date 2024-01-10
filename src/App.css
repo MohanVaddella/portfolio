@@ -81,7 +81,7 @@ p {
     gap: 16px;
 }
 
-.btn-github-hover {
+.btn-github:hover {
     color: var(--github);
     background-color: var(--white);
 }
@@ -160,6 +160,7 @@ h3 {
 /* Section Titles Ends */
 
 /* Navbar Style Start */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -193,7 +194,7 @@ h3 {
   }
   .navbar--active-content {
     color: var(--primary);
-  }
+  } 
   /* Navbar Styler Ends */
 
 
@@ -233,9 +234,6 @@ h3 {
     align-self: stretch;
 }
 
-.hero--section--title--color {
-    color: var(--primary);
-}
 .hero--section--title--color {
     color: var(--primary);
 }
