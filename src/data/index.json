@@ -1,0 +1,23 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src": "./img/product-chain-1.png",
+            "title": "Frontend", 
+            "description": "HTML CSS JavaScript React.js Tailwind CSS"
+        },
+        {
+            "id": "2",
+            "src": "./img/tag-1.png",
+            "title": "Backend", 
+            "description": "Node.js Express.js MongoDB MySQL Mongoose"
+        },
+        {
+            "id": "3",
+            "src": "./img/feather-pen-1.png",
+            "title": "DevOps", 
+            "description": "Linux AWS Azure GCP GitHub Actions Bash Scripting"
+        }
+    ]
+}
+
