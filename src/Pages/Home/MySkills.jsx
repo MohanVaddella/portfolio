@@ -4,7 +4,7 @@ export default function MySkills() {
   return (
     <section className="skills--section" id="mySkills">
       <div className="portfolio--container">
-        <p className="section--title">My Skills</p>
+        <p className="section--title">Skills</p>
       </div>
       <div className="skills--section--container">
         {data?.skills?.map((item, index) => (
