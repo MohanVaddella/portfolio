@@ -146,7 +146,7 @@ h3 {
     font-weight: 600;
     line-height: 32px;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start; 
 }
 
 /* Portfolio & Contact Me*/
@@ -240,7 +240,7 @@ h3 {
 
 .hero--section-description {
     color: var(--darkblue);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 36px;
 }
@@ -283,6 +283,9 @@ h3 {
     border-radius: 10.6px;
     background: rgba(200, 238, 248, 0.58);
     min-height: 250px;
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 .skills--section--card:hover {
     border-bottom: 4px solid var(--primary);
@@ -330,6 +333,7 @@ h3 {
     align-items: center;
     gap: 114.6px;
     grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(200, 238, 248, 0.3);
 }
 .about--section--img > img {
     width: 100%;
@@ -339,3 +343,112 @@ h3 {
 /* About Me Ends */
 
 /* Projects Section Starts */
+.portfolio--section {
+    display: flex;
+    padding: 112px 85px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+.portfolio--container-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.portfolio--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21.3px;
+}
+.portfolio--section--container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 42.6px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.portfolio--section--img {
+    border-radius: 8px;
+    width: 100%;
+}
+.portfolio--section--img > img {
+    width: 100%;
+}
+.portfolio--section--card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 calc(33.3333% - 42.6px);
+    background: rgba(200, 238, 248, 0.58);
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.portfolio--section--card--content {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+.portfolio--section--title {
+    color: var(--heading-color);
+}
+.portfolio--link {
+    text-decoration: none;
+    display: flex;
+    gap: 16px;
+    border-bottom: 1.33px solid var(--primary);
+    padding-bottom: 10.6px;
+    font-weight: 600;
+}
+.portfolio--section--card:hover path {
+    stroke: #0258d8;
+}
+/* Portfolio Ends */
+
+/* Experience */
+.experience--section {
+    display: flex;
+    padding: 112px 84.3px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    background-color: rgba(200, 238, 248, 0.3);
+}
+.experience--section--card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20.6px;
+    gap: 42.6px;
+    border-radius: 8px;
+    border: 2px solid #5d0cf6;
+}
+.experience--section--img {
+    border-radius: 8px;
+    width: 100%;
+}
+.experience--section--img > img {
+    width: 100%;
+    padding: 17px;
+}
+.experience--section--card--content {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+.experience--section--title {
+    color: var(--heading-color);
+    text-align: left;
+}
+
+/* Experience Section Ends */

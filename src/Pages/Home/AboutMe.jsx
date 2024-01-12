@@ -13,9 +13,10 @@ export default function AboutMe() {
             eye-catching design, and powerful tech quietly making it all happen.
           </p>
           <p className="hero--section-description">
-            I'm like a conductor, using MERN tools and speaking fluently in
-            Cloud languages (AWS, GCP, Azure – no problem!). I love tackling
-            tricky problems, optimizing speed, and seeing happy users.
+            I'm like a conductor, developing the applications using
+            <b> MERN tools </b>and deploying using
+            <b> Cloud Services </b>(AWS, GCP, Azure – no problem!). I love
+            tackling tricky problems, optimizing speed, and seeing happy users.
             Innovation is my thing, always pushing boundaries to build truly
             magical things.
           </p>

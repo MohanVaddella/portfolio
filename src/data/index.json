@@ -18,6 +18,59 @@
             "title": "DevOps", 
             "description": "Linux AWS Azure GCP GitHub Actions Bash Scripting"
         }
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "./img/video classifier.png",
+            "title": "Video Classifier", 
+            "description": "Empowered users to securely manage, categorize, and share ISRO videos, fostering collaboration and knowledge dissemination within the organization. Streamlined video upload, classification, and search tools enable efficient retrieval and analysis of valuable ISRO content. Secure user roles and seamless video sharing capabilities further encourage teamwork and engagement.",
+            "Link": "View In Github"
+        },
+        {
+            "id": "2",
+            "src": "./img/health connect.png",
+            "title": "Health Connect", 
+            "description": "Health Connect bridges the gap between patients and doctors by streamlining appointment booking. Patients get specialist care while doctors manage schedules efficiently, both benefiting from online appointment management and pre-consultation patient insights.",
+            "Link": "View In Github"
+        },
+        {
+            "id": "3",
+            "src": "./img/cruddur.png",
+            "title": "CRUDDUR", 
+            "description": "I took the micro-blogging prototype from a dreamy sketch to a stratospheric reality. React and Flask joined forces to build an API-powered dynamo on AWS, prepped for explosive growth and ready to amplify every startup voice. The future of micro-blogging has been unleashed, one cloud-powered post at a time!",
+            "Link": "View In Github"
+        },
+        {
+            "id": "4",
+            "src": "./img/fertilizer recommender.png",
+            "title": "Fertilizer Recommender", 
+            "description": "I harnessed the power of deep learning to create a sentinel against plant diseases. This automated system, its eyes trained on every leaf's subtle nuance, diagnoses threats with pinpoint accuracy and prescribes swift prevention strategies. It's a revolution in the making, an AI-powered shield for food security and healthier crops across the globe!",
+            "Link": "View In Github"
+        },
+        {
+            "id": "5",
+            "src": "./img/anomaly detection.png",
+            "title": "Anomaly Detector", 
+            "description": "I dissected network intrusions step-by-step, first preprocessing the CIC-IDS2017 dataset and wrangling statistics. Then, I filtered attacks and used Random Forest Regressor to discover crucial features for each intrusion type. I put seven machine learning algorithms to the test, dissecting their performance across various feature sets.",
+            "Link": "View In Github"
+        },
+        {
+            "id": "6",
+            "src": "./img/grocery app.png",
+            "title": "Grocery App", 
+            "description": "I whipped up the Grocery App, your trusty sidekick for conquering shopping lists. Jot down cravings, track quantities and prices, and banish empty fridge woes for good. Add items, manage budgets, and embrace a streamlined, organized grocery experience, all courtesy of my culinary innovation.",
+            "Link": "View In Github"
+        }
+    ],
+    "experience": [
+        {
+            "id": "1",
+            "src": "./img/intern.png",
+            "title": "Web Development Intern, IIT Kharagpur", 
+            "description": "At IIT Kharagpur, I delved into the world of high-stakes security, contributing to DRDO's Multiparty Authentication System. My internship saw me navigating the complexities of cryptography, designing secure authentication protocols, and collaborating with both DRDO scientists and IIT peers. This invaluable experience not only granted me insights into the inner workings of a prestigious defense research organization, but also fostered my personal growth. By tackling technical challenges and working in a diverse team, I honed my problem-solving and communication skills, emerging with a newfound appreciation for the critical role robust authentication plays in national security."
+        }
+        
     ]
 }
 
