@@ -8,7 +8,12 @@ export default function Projects() {
           <p className="section--title">Projects</p>
         </div>
         <div>
-          <button className="btn btn-github">
+        <a
+    href="https://github.com/MohanVaddella/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn btn-github"
+  >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -24,7 +29,7 @@ export default function Projects() {
               />
             </svg>
             Visit My GitHub
-          </button>
+            </a>
         </div>
       </div>
       <div className="portfolio--section--container">

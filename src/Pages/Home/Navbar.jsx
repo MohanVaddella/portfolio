@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import { BiCodeAlt } from 'react-icons/bi';
+
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -35,7 +37,8 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Portfolio" />
+      <BiCodeAlt className="text-white p-1" size={40} />
+      <span className="text-lg"><b>Mohan</b></span>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -115,6 +118,20 @@ function Navbar() {
               className="navbar--content"
             >
               Skills
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Contact"
+              className="navbar--content"
+            >
+              Contact
             </Link>
           </li>
         </ul>

@@ -4,6 +4,7 @@ import Experience from "../Experience";
 import Projects from "../Projects";
 import MySkills from "../MySkills";
 import ContactMe from "../ContactMe";
+import Footer from "../Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Projects />
       <MySkills />
       <ContactMe />
+      <Footer />
     </>
   );
 }
