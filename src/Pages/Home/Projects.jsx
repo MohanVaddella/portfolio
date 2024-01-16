@@ -8,12 +8,12 @@ export default function Projects() {
           <p className="section--title">Projects</p>
         </div>
         <div>
-        <a
-    href="https://github.com/MohanVaddella/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="btn btn-github"
-  >
+          <a
+            href="https://github.com/MohanVaddella/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-github"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -29,7 +29,7 @@ export default function Projects() {
               />
             </svg>
             Visit My GitHub
-            </a>
+          </a>
         </div>
       </div>
       <div className="portfolio--section--container">
@@ -44,13 +44,11 @@ export default function Projects() {
                 <p className="text-md">{item.description}</p>
               </div>
               <p className="text-sm portfolio--link">
-                {item.link}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 20 19"
-                  fill="none"
+                <a
+                  href={item.repoLink} // Use the repoLink from index.json
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-primary"
                 >
                   <path
                     d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
@@ -59,7 +57,9 @@ export default function Projects() {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
-                </svg>
+
+                  {item.link}
+                </a>
               </p>
             </div>
           </div>

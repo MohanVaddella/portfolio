@@ -397,6 +397,7 @@ h3 {
     gap: 32px;
     align-self: stretch;
 }
+
 .portfolio--section--title {
     color: var(--heading-color);
 }
