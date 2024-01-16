@@ -14,6 +14,10 @@ function Navbar() {
     setNavActive(false);
   };
 
+  const redirectToResume = () => {
+    window.location.href = "https://drive.google.com/file/d/1Bm7hkWl51f7Rk2HATJYcKlssqNTfL3e2/view?usp=sharing";
+  };
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 500) {
@@ -136,18 +140,15 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
+      <button
+        onClick={() => {
+          closeMenu();
+          redirectToResume();
+        }}
         className="btn btn-outline-primary"
       >
         Hire Me
-      </Link>
+      </button>
     </nav>
   );
 }
