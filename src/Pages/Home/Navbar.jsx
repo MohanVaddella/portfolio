@@ -15,7 +15,7 @@ function Navbar() {
   };
 
   const redirectToResume = () => {
-    window.location.href = "https://drive.google.com/file/d/1Bm7hkWl51f7Rk2HATJYcKlssqNTfL3e2/view?usp=sharing";
+    window.location.href = "https://drive.google.com/file/d/1wzE-Y3CMRXqdShU3VfYZbWlXSnqstHKg/view?usp=sharing";
   };
 
   useEffect(() => {
